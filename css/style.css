@@ -5,17 +5,19 @@
     box-sizing: border-box;
 }
 
-/* Grandezza di tutte le immagini massimo quanto il loro rispettivo contenitore */
-img {
-    width: 100%;
-}
-
 body {
     font-family: 'Gantari', sans-serif;
 }
 
 /* UTILITIES */
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
 
 /* Clearfix per uso del float, da applicare al container */
 .clearfix::after {
