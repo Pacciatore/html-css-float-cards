@@ -44,5 +44,25 @@ main>p {
 
 /* Contenitore del contenuto della pagina */
 main {
-    margin: 10px 20%;
+    margin: 10px 15%;
+}
+
+/* Insieme delle carte */
+.cards-container {
+    margin: 0 auto;
+    color: white;
+}
+
+/* Carte singole */
+.card {
+    background-color: #0f0e17;
+    margin: 10px 10px;
+    width: calc(100% / 3.19);
+    height: 100px;
+}
+
+/* Grandezza immagini delle cards */
+.card>img {
+    height: 100px;
+    width: 100px;
 }
