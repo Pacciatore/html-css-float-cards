@@ -68,3 +68,15 @@ main {
     height: 100px;
     width: 100px;
 }
+
+/* Interlinea del testo nelle cards */
+.card>p,
+h3 {
+    padding: 5px;
+    padding-left: 110px;
+}
+
+/* Colore dell'e-mail */
+p:last-child {
+    color: #2eb5e8;
+}
