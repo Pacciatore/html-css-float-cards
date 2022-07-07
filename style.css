@@ -36,3 +36,13 @@ h1 {
     color: #e53170;
     text-align: center;
 }
+
+/* Unica parte solamente testo */
+p {
+    text-align: center;
+}
+
+/* Contenitore del contenuto della pagina */
+main {
+    margin: 10px 20%;
+}
