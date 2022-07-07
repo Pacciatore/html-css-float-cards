@@ -10,6 +10,10 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: 'Gantari', sans-serif;
+}
+
 /* UTILITIES */
 
 
@@ -18,4 +22,11 @@ img {
     clear: both;
     content: "";
     display: table;
+}
+
+/* MISCELLANOUS */
+
+/* Titolo */
+h1 {
+    color: #e53170;
 }
