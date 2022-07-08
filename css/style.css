@@ -71,14 +71,16 @@ main {
     width: 120px;
 }
 
-/* Interlinea del testo nelle cards */
-.card>p,
-h3 {
-    padding: 5px;
-    padding-left: 110px;
+/* Formato del collegamento alle e-mail */
+.card a {
+    color: #2eb5e8;
+    text-decoration: none;
 }
 
-/* Colore dell'e-mail */
-p:last-child {
-    color: #2eb5e8;
+/* Formato del collegamento quando ci passi sopra con il mouse */
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Formato contenuto card */
 }
