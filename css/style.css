@@ -67,8 +67,8 @@ main {
 
 /* Grandezza immagini delle cards */
 .card>img {
-    height: 100px;
-    width: 100px;
+    float: left;
+    width: 120px;
 }
 
 /* Interlinea del testo nelle cards */
