@@ -62,6 +62,7 @@ main {
     width: calc(100% / 3.19);
     height: 100px;
     box-shadow: 0px 0px 10px 3px grey;
+    float: left;
 }
 
 /* Grandezza immagini delle cards */
